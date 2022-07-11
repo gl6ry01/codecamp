@@ -1,4 +1,4 @@
-body{
+/* body{
     margin: 0px;
     padding: 0px;
 }
@@ -15,10 +15,22 @@ body{
     background-color: aqua;
 }
 
-.container:hover .box{
-    transform: translateX(100%);
+.container{
+    width: 100vh;
+    height: 100vh;
+    background-color: #001536;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
-@keyframes Interesting {
-    0%
-}
+.pfp{
+    width: 10vh;
+    height: 10vh;
+    border-color: white;
+    border-radius: 10px;
+    background: url(https://github.com/gl6ry01.png);
+    background-size: cover;
+} */
